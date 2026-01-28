@@ -21,7 +21,7 @@ export async function GET(request: NextRequest) {
         role: true,
         createdAt: true,
         updatedAt: true,
-        ngo: {
+        ngos: {
           select: {
             id: true,
             name: true,
